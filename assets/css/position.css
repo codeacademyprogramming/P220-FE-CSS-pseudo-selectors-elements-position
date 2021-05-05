@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 5000px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.position {
+    position: relative;
+    top: 50px;
+    left: 500px;
+    z-index: -1;
+}
+
+h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.notifications::after {
+    position: absolute;
+    font-size: 15px;
+    content: '5';
+    display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    top: -5px;
+    right: -10px;
+}
+
+.underline {
+    display: block;
+    width: min-content;
+    cursor: pointer;
+}
+
+.underline span {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 1px;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    transition: .3s width;
+}
+
+.underline:hover span {
+    width: 100%;
+}
+
+
+.back-to-top {
+    position: fixed;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    bottom: 50px;
+    right: 50px;
+}
+
+.back-to-top a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header ul li {
+    margin-left: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
