@@ -9,3 +9,7 @@
 
 * https://developer.mozilla.org/en-US/docs/Web/CSS/position
 * https://www.w3schools.com/CSS/css_positioning.asp
+* https://www.w3schools.com/css/css_combinators.asp
+
+### Task 
+* Create [this](https://accounts.google.com/signin/v2/identifier?hl=az&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin) page
